@@ -45,22 +45,33 @@
 			<h3>Kontakt</h3>
 		</aside>
 		<div class="col-sm-6">
+
 			<div class="row">
 			{{#email}}
-			<div class="col-sm-3">
+			<div class="col-sm-6">
 				<strong>E-Mail</strong>
 				<div class="email">{{.}}</div>
 			</div>
 			{{/email}}
 			</div>
+
 			<div class="row">
 			{{#phone}}
-			<div class="col-sm-3">
+			<div class="col-sm-6">
 				<strong>Telefon</strong>
 				<div class="phone">{{.}}</div>
 			</div>
 			{{/phone}}
 			</div>
+
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Adresse</strong>
+				<div class="address">{{location.address}}</div>
+				<div class="city">{{location.postalCode}} {{location.city}}</div>
+			</div>
+			</div>
+
 		</div>
 
 		<div class="col-sm-3">
