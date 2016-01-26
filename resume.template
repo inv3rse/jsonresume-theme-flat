@@ -42,7 +42,7 @@
 	{{#resume.basics}}
 	<section id="contact" class="row">
 		<aside class="col-sm-3">
-			<h3>Contact</h3>
+			<h3>Kontakt</h3>
 		</aside>
 		<div class="col-sm-9">
 			<div class="row">
@@ -54,7 +54,7 @@
 			{{/email}}
 			{{#phone}}
 			<div class="col-sm-6">
-				<strong>Phone</strong>
+				<strong>Telefon</strong>
 				<div class="phone">{{.}}</div>
 			</div>
 			{{/phone}}
@@ -71,7 +71,7 @@
 	</section>
 	<section id="about" class="row">
 		<aside class="col-sm-3">
-			<h3>About</h3>
+			<h3>Über mich</h3>
 		</aside>
 		<div class="col-sm-9">
 		{{#summary}}
@@ -82,7 +82,7 @@
 	{{#if profiles.length}}
 	<section id="profiles" class="row">
 		<aside class="col-sm-3">
-			<h3>Profiles</h3>
+			<h3>Profile</h3>
 		</aside>
 		<div class="col-sm-9">
 			<div class="row">
@@ -121,7 +121,7 @@
 	{{#if resume.work.length}}
 	<section id="work" class="row">
 		<aside class="col-sm-3">
-			<h3>Work</h3>
+			<h3>Arbeit</h3>
 		</aside>
 		<div class="col-sm-9">
 			<div class="row">
@@ -149,7 +149,7 @@
 				</div>
 				{{/summary}}
 				{{#if highlights.length}}
-				<h4>Highlights</h4>
+				<h4>Höhepunkte</h4>
 				<ul class="highlights">
 					{{#highlights}}
 					<li class="bullet">{{.}}</li>
@@ -166,7 +166,7 @@
 	{{#if resume.volunteer.length}}
 	<section id="volunteer" class="row">
 		<aside class="col-sm-3">
-			<h3>Volunteer</h3>
+			<h3>Ehrenamtlich</h3>
 		</aside>
 		<div class="col-sm-9">
 			<div class="row">
@@ -211,7 +211,7 @@
 	{{#if resume.education.length}}
 	<section id="education" class="row">
 		<aside class="col-sm-3">
-			<h3>Education</h3>
+			<h3>Bildung</h3>
 		</aside>
 		<div class="col-sm-9">
 			<div class="row">
@@ -234,7 +234,7 @@
 				</div>
 				{{/studyType}}
 				{{#if courses.length}}
-				<h4>Courses</h4>
+				<h4>Kurse</h4>
 				<ul class="courses">
 					{{#courses}}
 					<li>{{.}}</li>
@@ -251,7 +251,7 @@
 	{{#if resume.awards.length}}
 	<section id="awards" class="row">
 		<aside class="col-sm-3">
-			<h3>Awards</h3>
+			<h3>Auszeichnungen</h3>
 		</aside>
 		<div class="col-sm-9">
 			<div class="row">
@@ -287,7 +287,7 @@
 	{{#if resume.publications.length}}
 	<section id="publications" class="row">
 		<aside class="col-sm-3">
-			<h3>Publications</h3>
+			<h3>Publikationen</h3>
 		</aside>
 		<div class="col-sm-9">
 			<div class="row">
@@ -325,7 +325,7 @@
 	{{#if resume.skills.length}}
 	<section id="skills" class="row">
 		<aside class="col-sm-3">
-			<h3>Skills</h3>
+			<h3>Fähigkeiten</h3>
 		</aside>
 		<div class="col-sm-9">
 			<div class="row">
@@ -353,7 +353,7 @@
 	{{#if resume.languages.length}}
 	<section id="languages" class="row">
 		<aside class="col-sm-3">
-			<h3>Languages</h3>
+			<h3>Sprachen</h3>
 		</aside>
 		<div class="col-sm-9">
 			<div class="row">
@@ -379,7 +379,7 @@
 	{{#if resume.interests.length}}
 	<section id="interests" class="row">
 		<aside class="col-sm-3">
-			<h3>Interests</h3>
+			<h3>Interessen</h3>
 		</aside>
 		<div class="col-sm-9">
 			<div class="row">
@@ -407,7 +407,7 @@
 	{{#if resume.references.length}}
 	<section id="references" class="row">
 		<aside class="col-sm-3">
-			<h3>References</h3>
+			<h3>Referenzen</h3>
 		</aside>
 		<div class="col-sm-9">
 			<div class="row">
