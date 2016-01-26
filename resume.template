@@ -44,22 +44,31 @@
 		<aside class="col-sm-3">
 			<h3>Kontakt</h3>
 		</aside>
-		<div class="col-sm-9">
+		<div class="col-sm-6">
 			<div class="row">
 			{{#email}}
-			<div class="col-sm-6">
+			<div class="col-sm-3">
 				<strong>E-Mail</strong>
 				<div class="email">{{.}}</div>
 			</div>
 			{{/email}}
+			</div>
+			<div class="row">
 			{{#phone}}
-			<div class="col-sm-6">
+			<div class="col-sm-3">
 				<strong>Telefon</strong>
 				<div class="phone">{{.}}</div>
 			</div>
 			{{/phone}}
 			</div>
 		</div>
+
+		<div class="col-sm-3">
+            <div class="profile-pic">
+                  <img class="media-object center-block img-responsive" alt="{{name}}" src="{{picture}}" itemprop="image">
+            </div>
+		</div>
+
 	</section>
 	<section id="about" class="row">
 		<aside class="col-sm-3">

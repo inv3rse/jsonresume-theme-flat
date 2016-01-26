@@ -69,6 +69,10 @@ h4 span:first-child {
 .col-sm-12 + .col-sm-12 {
 	margin-top: 30px;
 }
+.profile-pic img {
+  width: 117;
+  height: 152px;
+}
 #header {
 	background: #f4f6f6;
 	padding: 50px 0;
