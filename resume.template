@@ -48,7 +48,7 @@
 			<div class="row">
 			{{#email}}
 			<div class="col-sm-6">
-				<strong>Email</strong>
+				<strong>E-Mail</strong>
 				<div class="email">{{.}}</div>
 			</div>
 			{{/email}}
@@ -58,14 +58,6 @@
 				<div class="phone">{{.}}</div>
 			</div>
 			{{/phone}}
-			{{#website}}
-			<div class="col-sm-6">
-				<strong>Website</strong>
-				<div class="website">
-					<a href="{{.}}">{{.}}</a>
-				</div>
-			</div>
-			{{/website}}
 			</div>
 		</div>
 	</section>
